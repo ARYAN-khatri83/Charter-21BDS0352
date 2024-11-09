@@ -10,11 +10,12 @@ npm (version 6 or above)
 Git (for cloning the repository)
 Python (if required for backend)
 Ensure these are installed on your system before proceeding. Verify installations with:
-
+```
 node -v
 npm -v
 git --version
 python --version
+```
 
 ## Installation Steps
 ### Install dependencies for backend
