@@ -19,11 +19,14 @@ python --version
 
 ## Installation Steps
 ### Install dependencies for backend
-
+```
 pip install -r requirements.txt
+```
 
 ### Install node modules for frontend
+```
 npm install
+```
 
 ### Setup API Key (if required)
 Create a .env file in the root folder.
@@ -32,10 +35,14 @@ API_KEY=your-api-key-here
 
 ### Running the Project
 To start the backend server:
+```
 python app.py
+```
 
 ### To run the frontend:
+```
 npm start
+```
 
 ### Usage Instructions
 Running the Solution
@@ -60,11 +67,13 @@ Sample Run
 For Merkle Proof verification:
 
 Input:
+```
 json
 {
    "proof": ["0xabc123...", "0xdef456..."],
    "leaf": "0x789abc..."
 }
+```
 
 Run Command:
 node verifyMerkleProof.js
