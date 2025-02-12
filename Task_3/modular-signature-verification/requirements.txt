@@ -112,7 +112,7 @@ thop
 tornado
 tqdm
 traitlets
-transformers==4.28.1
+transformers==4.48.0
 typing-extensions
 ujson
 urllib3
